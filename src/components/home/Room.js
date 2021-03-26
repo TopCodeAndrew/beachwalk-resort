@@ -70,8 +70,7 @@ export default styled(Room)`
     ${setTransition()};
     &:hover {
         ${setShadow.dark}; */
-    }
-    `
+    }`
 
 Room.propTypes = {
     room: PropTypes.shape({

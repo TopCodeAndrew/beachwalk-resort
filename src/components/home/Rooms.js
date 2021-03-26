@@ -38,8 +38,9 @@ const RoomsCenter = styled.div`
     ${media.desktop`
         width: 100vw;
         max-width: 1170px
+        grid-template-columns: repeat(3, 1fr)
     `}
     ${media.large`
-        grid-template-columns: repeat(3, )
+        grid-template-columns: repeat(3, 1fr)
     `}
 `
